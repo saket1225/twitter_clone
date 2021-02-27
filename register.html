@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Twitter</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Saket Gupta">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="https://use.typekit.net/xuf8mwg.css">
+    <link rel="stylesheet" type="text/css" href= "register.css">
+    <link rel = "icon" href = "/home/kali/Desktop/Twitter/580b57fcd9996e24bc43c53e.png" type = "image/x-icon">
+
+</head>
+<body>
+
+    <img src="/home/kali/Desktop/Twitter/Screenshot_2021-01-30_16-02-4.png" alt="Twitter Background" class="backgroundImage"> <!-- background image of the first page -->
+    <img src="/home/kali/Desktop/Twitter/twitter-icon-18-256.png" alt = "Twitter logo" class="twitterLogo"> <!--  In Page logo -->
+
+    <h1 class="HappeningNow">Happening Now</h1>
+    <h2 class="Join">Join Twitter Today.</h2>
+
+    <button class="signup" onclick="showRegisterModel()">Sign Up</button>
+
+    <a href="login.html">
+    <button class="login">Log In</button>
+    </a>
+
+    <div class="footer">
+        <p>&copy 2021, INC.</p>
+    </div>
+
+    <div class="logup">
+        <div class="background">
+            <div class="login_modal">
+                <img src="/home/kali/Desktop/Twitter/twitter-icon-18-256.png" alt = "Twitter logo" class="logo">
+                <button class="go_back" onclick="hideRegisterModel()">Go Back</button>
+                <h2 class="create_account">Create Your Account</h2>
+                <div class="form">
+                    <div class="name_container">
+                        <input type= "text" class="name" required>
+                        <h3 class="name_text">Name</h3>
+                    </div>
+
+                        <input type= "tel" class="phone" required>
+                        <h3 class="phone_text">Phone</h3>
+
+                        <h5 class="change" onclick="changer()">Use Email Instead</h5>
+
+                        <h6 class="dob">Date of Brith</h6>
+                        <p class="info">This will not be shown publicly. Confirm your own age, even if this account is for a
+                        business, a pet, or something else.</p>
+
+                        <select class="month" name="months">
+                        <option value="0"> </option>
+                        <option value="1">January</option>
+                        <option value="2">February</option>
+                        <option value="3">March</option>
+                        <option value="4">April</option>
+                        <option value="5">May</option>
+                        <option value="6">June</option>
+                        <option value="7">July</option>
+                        <option value="8">August</option>
+                        <option value="9">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                        </select>
+
+                        <p class="arrow_for_month">⥥</p>
+
+                        <p class="month_text">Month</p>
+
+                        <select class="year" name="years">
+                            <option></option>
+                        </select>
+
+                        <p class="arrow_for_year">⥥</p>
+                        <p class="year_text">Year</p>
+
+                        <select class="date" name="dates">
+                            <option></option>
+                        </select>
+
+                        <p class="arrow_for_date">⥥</p>
+                        <p class="date_text">Date</p>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="register.js"></script>
+
+</body>
+</html>
